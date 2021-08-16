@@ -24,8 +24,12 @@ class Manager():
             self.config = json.load(f)
 
         if self.config['device'] == "cuda":
-            self.config['device'] = torch.device(
-                'cuda') if torch.cuda.is_available() else torch.device('cpu')
+            if torch.cuda.is_available():
+                self.config['device'] = torch.device('cuda')
+                print("using cuda")
+            else:
+                self.config['device'] = torch.device('cpu')
+                print("using cpu")
         elif self.config['device'] == "cpu":
             self.config['device'] = torch.device('cpu')
 

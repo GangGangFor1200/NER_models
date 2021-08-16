@@ -47,7 +47,7 @@ def find_entities(tokens, entities, entity_tags, tokenizer):
     checked = [False] * len(tokens)
 
     for entity in entity_list:
-        print(entity)
+        
         entity_name = entity.split(config['inner_split_symbol'])[0]
         entity_tag = entity.split(config['inner_split_symbol'])[1]
 

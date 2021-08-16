@@ -123,4 +123,4 @@ dependencies:
   - zstd=1.4.9=h19a0ad4_0
   - pip:
     - pytorch-crf==0.7.2
-prefix: C:\Users\vislab\anaconda3\envs\bert-crf-entity
+prefix: C:\Users\test\anaconda3\envs\bert-crf-entity

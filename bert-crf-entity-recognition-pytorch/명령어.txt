@@ -1,0 +1,7 @@
+
+데이터 프로세싱
+python src/data_process.py --config_path=config.json
+
+
+실행
+python src/main.py --mode=train --config_path=config.json --ckpt_name=CHECKPOINT_NAME
