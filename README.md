@@ -4,8 +4,15 @@
 
 ## BERT-CRF
 
-### sample data 오류 수정
+### sample data 오류
 https://github.com/devjwsong/bert-crf-entity-recognition-pytorch/issues/1
+
+사용가능
+- sports.txt
+- restaurant-search.txt
+- food-ordering.txt
+
+restaurant-search.txt 랑 관련있으니 이거로 해보기
 
 ### bert_config.dim 오류 수정
 ```
